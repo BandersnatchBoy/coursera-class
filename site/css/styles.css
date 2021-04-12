@@ -11,9 +11,9 @@ body {
 	border: 0;
 }
 #logo-img{
-	background: url(https://www.shiva.com/Files/Directory%20Folders/19822_1_59_Thumb.png) no-repeat;
-	width: 173px;
-	height: 161px;
+	background: url('/images/restaurant-logo.png') no-repeat;
+	width: 150px;
+	height: 140px;
 	margin: 10px 15px 10px 0px; 
 }
 .navbar-brand {
@@ -84,10 +84,10 @@ body {
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px){
 	#logo-img{
-		background: url(https://www.shiva.com/Files/Directory%20Folders/19822_1_59_Thumb.png) no-repeat;
-		max-width: 300%;
-		height: auto;
-		/*margin: 5px 5px 5px 0; */
+		background: url('/images/restaurant-logo-md.png') no-repeat;
+		width: 100px;
+		height: 93px;
+		margin: 5px 5px 5px 0;
 	}
 
 }
@@ -95,8 +95,33 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
-
+/*Extra Small Devices*/
 @media (max-width: 767px) {
+	/*Header*/
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px; /* Restraunt Name */
+		font-size: 5vw; /* 1 vw = 1% of Viewport Width */
+	}
+	.navbar-brand p{ /* Kosher Cert */
+		font-size: .6em;
+		margin-top: 10px;
+	}
+	.navbar-brand p img { /* Star Img */
+		height: 20px;
+		width: 20px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
 
 }
 

@@ -11,7 +11,7 @@ body {
 	border: 0;
 }
 #logo-img{
-	background: url('/images/restaurant-logo.png') no-repeat;
+	background: url('http://localhost:3000/coursera-class/site/images/restaurant-logo.png') no-repeat;
 	width: 150px;
 	height: 140px;
 	margin: 10px 15px 10px 0px; 
@@ -84,7 +84,7 @@ body {
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px){
 	#logo-img{
-		background: url('/images/restaurant-logo-md.png') no-repeat;
+		background: url('http://localhost:3000/coursera-class/site/images/restaurant-logo-md.png') no-repeat;
 		width: 100px;
 		height: 93px;
 		margin: 5px 5px 5px 0;
@@ -120,6 +120,22 @@ body {
 	#collapsable-nav a span{
 		font-size: 1em;
 		margin-right: 5px;
+	}
+
+	#call-btn > a {
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+	#xs-deliver{
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
 	}
 
 

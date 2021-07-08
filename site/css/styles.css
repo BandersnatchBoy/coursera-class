@@ -171,6 +171,8 @@ body {
 	margin-bottom: 50px;
 }
 /* END MENU CATEGORIES */
+
+/* SINGLE CATEGORY PAGE */
 .menu-item-tile {
 	margin-bottom: 25px;
 }
@@ -208,7 +210,7 @@ body {
 	padding-right: 30px; 
 }
 h3.menu-item-title{
-	margin: 0 0 10px;
+	margin: 10px 0 10px;
 }
 .menu-item-details{
 	font-size: .9em;
